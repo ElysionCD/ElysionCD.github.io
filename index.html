@@ -9,70 +9,107 @@
     
 </head>
 <body>
-    <!--Navbar
+    <!--Navbar-->
+    <section>
     <div class="navbar">
         <div class = "logo">
-            <h1><a href="index.html">ELYSION CD</a></h1> 
+            <h1><a class = "links" href="#">ELYSION CD</a></h1> 
         </div>
-        <div class="link">
-            <a href="index.html">HOME</a>
-            <a href="astquest.html">ABOUT</a>
-            <a href="index.html">PROJECTS</a>
-            <a href="index.html">CONTACT</a>
+        <div class="menu">
+            <a class = "links" href="#">HOME</a>
+            <a class = "links" href="#asterionQuest">ASTERION QUEST</a>
+            <a class = "links" href="#aboutUs">ABOUT US</a>
+            <a class = "links" href="#contact">CONTACT</a>
         </div>
-    </div>-->
-
-    <!--Sessão - Sobre-->
-    <section class="home" id="home">
-        <div class = "about">
-            <img src="LogoElysionCD.png" class="img">
-            <!--
-            <h2 class = "title">ABOUT</h2>
-            -->
-            <p>Elysion CD is an independent videogame developer that specializes in games with retro aesthetics and modern game design.</p>
-        </div>
+    </div>
+    <br>
     </section>
 
-    <!--Sessão - Games-->
-    <section class="projectss">
-        <div class = "projects">
-            <h2 class = "title">CURRENTLY WORKING ON ASTERION QUEST</h2>
-            <!--Sessão - Games
-            <p>
-                Currently developing Asterion Quest: an 8-bit side-scrolling action platformer with classic 
-                retro mechanics and linear level design.            
-            </p>-->
-            <iframe src="https://store.steampowered.com/widget/2906840/" frameborder="0" width="646" height="190"></iframe>
-        </div>
-        <!--
-        <div class = "gamesImg">
-            <div class="divide">
-                <img src="img/AstQuest (1).png" class="img">
-                <p>An epic 8-bit adventure full of action and blood in with a deluxe soundtrack.</p>
-            </div>
-            <div class="divide">
-                <img src="img/AstQuest (2).png" class="img">
-                <p>Immerse yourself in a dark world dominated by terrible creatures</p>
-            </div>  
-            <div class="divide">
-                <img src="img/AstQuest (3).png" class="img">
-                <p>Epic battles against the powerful bosses at the end of each level.</p>
-            </div>
-        </div> 
-        <p><a href="#">MORE INFO</a></p>    
-        -->
-    </section>
-
-    <!--Sessão - Rodapé-->
+    <!--Home-->
     <section>
+        <div class = "home" id="home">
+            <div class = "bannerTitle">    
+                <h1>ASTERION QUEST</h1>
+                <p>by Elysion CD</p>
+                <p>Coming soon</p>
+                <button class="wishlist"><a href="https://store.steampowered.com/app/2906840/Asterion_Quest/">Wishlist on Steam</a></button>
+            </div>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section>
+        <div class = "projects">
+            <h2 class = "title" id="asterionQuest">ABOUT THE GAME</h2>
+            <p>
+                Asterion Quest is an 8-bit side-scrolling action platformer with classic 
+                retro mechanics and linear level design. Take control of Asterios, the Minotaur, and explore the dangerous Forbidden Continent in a quest for his adventure companion.
+            </p>             
+            <h2>SCREENSHOTS</h2>
+            <div class = "screenshots">
+                <img src="img/AstQuest (1).png" class="img">
+                <img src="img/AstQuest (2).png" class="img">
+                <img src="img/AstQuest (3).png" class="img">
+                <img src="img/AstQuest (4).png" class="img"> 
+                <img src="img/AstQuest (5).png" class="img">
+                <img src="img/AstQuest (6).png" class="img">
+            </div>
+            <h2>FEATURES</h2>
+        </div> 
+        <div class="features">
+            <ul>
+            <li>6 levels of classic linear design.</li>
+            <li>8-bit style graphics, based on the NES palette.</li>
+            <li>Pure old school action!</li>
+            <li>+10 different weapons, equipment and items to collect!</li>
+            <li>Huge bosses!</li>
+            <li>In-game secrets and alternative endings.</li>
+            <li>Death counter.</li>
+            <li>New Game+.</li>
+            <li>Extras, including Boss Rush mode, Speed Run mode, Bestiary and Sound Test!</li>
+            </ul>
+        </div>
+        <div class = "pressKit">
+            <button class="moreInfo"><a href="https://drive.google.com/drive/folders/1CwNkn6Vtn3Rq7sLiU5pt831Vt07DPfbU">PRESS KIT</a></button>
+            <br>
+            <br>
+        </div>
+    </section>
+
+     <!--About-->
+     <section>
+        <div class = "about">
+            <h2 class = "title" id="aboutUs">ABOUT US</h2>
+            <p>Elysion CD is a one-person studio focused on creating games with retro aesthetics and modern game design.<br> We are currently developing Asterion Quest, our first game.</p>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section>
+        <div class = "contact">
+            <h2 class = "title" id="contact">CONTACT</h2>
+            <p>elysioncd@gmail.com</p>   
+            <br>
+            <br>         
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class = "footerSec">
         <div class = "footer">
             <p>© 2025 ELYSION CD</p>
             <div class="social">
-                <a href="https://x.com/elysioncd"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://instagram.com/elysioncd"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://youtube.com/@elysion-cd"><i class="fa-brands fa-youtube"></i></a>
+                <a class = "links" href="https://x.com/elysioncd"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class = "links" href="https://instagram.com/elysioncd"><i class="fa-brands fa-instagram"></i></a>
+                <a class = "links" href="https://youtube.com/@elysion-cd"><i class="fa-brands fa-youtube"></i></a>
             </div>    
         </div>
+        <br>
+        <br>
     </section>
 
 </body>
